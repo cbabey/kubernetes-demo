@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: simple-web-app-config
+data:
+  config.properties: |
+    description=! This is a simple web page deployed in Kubernetes..!
+
